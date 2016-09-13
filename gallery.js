@@ -92,7 +92,7 @@ $(document).ready(function(){
 
 
       makeSlide( hipsterimg ).appendTo(thumbs);
-      lightboxlink.find('img').removeClass('imgLiquidFill').addClass('imgLiquidNoFill');
+      lightboxlink.find('img').parent().removeClass('imgLiquidFill').addClass('imgLiquidNoFill');
       lightboxlink.appendTo( galeria );
 
       slide_count++;
